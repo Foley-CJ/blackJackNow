@@ -5,6 +5,7 @@ import json
 
 app = Flask(__name__,template_folder="templates")
 
+APPLICATION_NAME = "blackjacknow"
 
 @app.route('/')
 def homepage():
